@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab5</title>
+</head>
+<body>
+<h1>Military Rank</h1>
+
+<form>
+
+    <input type="radio" name="rank" id="rank-capt" data-rank-capt ="red" checked="checked">
+    <label for="rank-capt">Captain</label>
+
+    <input type="radio" name="rank" id="rank-tsgt" data-rank-tsgt ="blue">
+    <label for="rank-tsgt">Sergeant</label>
+
+    <input type="radio" name="rank" id="rank-maj" data-rank-maj ="purple">
+    <label for="rank-maj">Major</label>
+
+    <input type="radio" name="rank" id="rank-gen" data-rank-gen ="green">
+    <label for="rank-gen">General</label><br><br>
+
+
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="name"><br><br>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="name"><br><br>
+
+    <button id="showGreeting">Show Greeting</button>
+
+</form>
+<p id="output"><span id ="greeting"></span></p>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>
