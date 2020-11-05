@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Lab5</title>
 </head>
 <body>
+
 <h1>Military Rank</h1>
 
 <form>
 
-    <input type="radio" name="rank" id="rank-capt" data-rank-capt ="red" checked="checked">
+    <input type="radio" name="rank" id="rank-capt"  value="Captain"   checked="checked">
     <label for="rank-capt">Captain</label>
 
-    <input type="radio" name="rank" id="rank-tsgt" data-rank-tsgt ="blue">
+    <input type="radio" name="rank" id="rank-tsgt" value="Sergeant"  >
     <label for="rank-tsgt">Sergeant</label>
 
-    <input type="radio" name="rank" id="rank-maj" data-rank-maj ="purple">
+    <input type="radio" name="rank" id="rank-maj" value="Major"  >
     <label for="rank-maj">Major</label>
 
-    <input type="radio" name="rank" id="rank-gen" data-rank-gen ="green">
+    <input type="radio" name="rank" id="rank-gen" value="General" >
     <label for="rank-gen">General</label><br><br>
 
 
@@ -31,6 +33,7 @@
     <button id="showGreeting">Show Greeting</button>
 
 </form>
+
 <p id="output"><span id ="greeting"></span></p>
 
 
